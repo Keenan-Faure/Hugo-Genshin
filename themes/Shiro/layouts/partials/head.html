@@ -7,9 +7,10 @@
         <script src="js/script.js"></script>
     {{ end }}
 
-    {{if .Title }}
-        <script>console.log("I am products");</script>
-    {{ end }}
+    {{ if eq .Params.Description "products_main"}}
+    {{ $description := .Params.Description }}
+    {{ $description }}
+    {{end}}
     
     
     <link rel="stylesheet" href="../css/home/style.css">
