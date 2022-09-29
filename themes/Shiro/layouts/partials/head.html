@@ -4,12 +4,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     {{ if .IsHome }}
-        <script src="js/script.js"></script>
+        <script src="../js/script.js"></script>
     {{ end }}
 
     {{ if eq .Params.Description "products_main"}}
-    {{ $description := .Params.Description }}
-    {{ $description }}
+        <script src="../js/products/script.js"></script>
     {{end}}
     
     
