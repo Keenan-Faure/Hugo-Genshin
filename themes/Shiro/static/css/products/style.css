@@ -119,6 +119,38 @@ b
 {
     background-color: rgba(255, 255, 255, 0.5);
 }
+.fadeDown
+{
+    animation: fade 0.5s ease-out forwards;
+}
+.fadeUp
+{
+    animation: fade 0.5s ease-out forwards;
+}
+@keyframes fade
+{
+    from
+    {
+        height: 90px;
+    }
+    to
+    {
+        background-position: relative;
+        height: 500px;
+    }
+}
+@keyframes fade-back
+{
+    from
+    {
+        height: 500px;
+        background-position: relative;
+    }
+    to
+    {
+        height: 90px;
+    }
+}
 .rarities
 {
     

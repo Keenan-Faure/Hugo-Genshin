@@ -4,21 +4,12 @@ $(document).ready(()=>
     {
         if($('.rarities').css('height') != '600px')
         {
-            $('.rarities').css(
-                {
-                    "background-position": "relative",
-                    "height": "600px"
-                }
-            )
+            $('.rarities').addClass('fadeDown');     
         }
         else
         {
-            $('.rarities').css(
-                {
-                    "background-position": "relative",
-                    "height": ""
-                }
-            )
+            $('.rarities').removeClass('fadeDown'); 
+            $('.rarities').addClass('fadeUp'); 
         }
     });
     $('.elements').on('dblclick', ()=>
