@@ -1,0 +1,23 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    {{ if .IsHome }}
+        <script src="js/script.js"></script>
+    {{ end }}
+
+    {{if .Title }}
+        <script>console.log("I am products");</script>
+    {{ end }}
+    
+    
+    <link rel="stylesheet" href="../css/home/style.css">
+    {{if not .IsHome}}
+        <link rel="stylesheet" href="../css/products/style.css">
+    {{ end }}
+
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+</head>

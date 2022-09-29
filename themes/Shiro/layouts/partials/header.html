@@ -1,0 +1,12 @@
+
+<div class="container">
+    <nav class="navBar">
+        <div id="logo"></div>
+        {{ range .Site.Menus.main }}
+        <a class = 'navButton' href="{{ .URL }}">
+        {{ $text := print .Name | safeHTML }}
+        {{ $text }}
+        </a>
+        {{ end }}
+    </nav>
+</div>

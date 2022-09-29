@@ -1,0 +1,363 @@
+body
+{
+    margin: 0;
+}
+#logo
+{
+    position: relative;
+    background-image: url(../../logo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 160px;
+    top: 3px;
+    border-radius: 0 10px 10px 0;
+    opacity: 0.5;
+    height: 40px;
+    transition-duration: 0.8s;
+}
+
+#logo:hover
+{
+    opacity: 1;
+}
+.background
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../home/bg.jpeg);
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+.navBar
+{
+    width: 100%;
+    box-shadow: #6e6e70 1px 0px 10px;
+    height: 45px;
+    position: relative;
+    background: rgba(19, 17, 17, 0.7);
+}
+.navButton
+{
+    display: inline-block;
+    width: 100px;
+    top: -13px;
+    color: white;
+    height: 30px;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+.navButton:hover
+{
+    background-color: rgba(35, 165, 182, 0.7);
+    border-bottom: 1px solid rgb(0, 191, 255);
+}
+
+.region
+{
+    position: relative;
+    width: 100%;
+    top: 42%;
+    overflow: auto;
+    padding: 20px;
+    transition-duration: 0.5s;
+}
+.region:hover
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.state
+{
+    position: relative;
+    width: 95%;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.image
+{
+    position: absolute;
+    background-color: black;
+    top: 15px;
+    left: 10px;
+    width: 25%;
+    height: 200px;
+}
+.archonMond
+{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../home/barbatos.webp);
+    object-fit: cover;
+    opacity: 0;
+}
+.archonIna
+{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../home/baal.webp);
+    object-fit: cover;
+    opacity: 0;
+}
+
+.archonLiyue
+{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../home/morax.webp);
+    object-fit: cover;
+    opacity: 0;
+}
+.archonSumeru
+{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../home/Rukkhadevata.webp);
+    object-fit: cover;
+    opacity: 0;
+}
+.econ
+{
+    height: 65px;
+    position: absolute;
+    top: 67%;
+    left: 0%;
+}
+.element
+{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    display: inline-block;
+    opacity: 0.5;
+    transition-duration: 1s;
+    background-size: cover;
+    object-fit: cover;
+}
+.elementMond
+{
+    background-image: url(../../home/anemo.png);
+}
+.elementIna
+{
+    background-image: url(../../home/electro.png);
+}
+.elementLiyue
+{
+    background-image: url(../../home/geo.png);
+}
+.elementSumeru
+{
+    background-image: url(../../home/dendro.png);
+}
+.element:hover
+{
+    opacity: 1;
+}
+.emblem
+{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    display: inline-block;
+    opacity: 0.5;
+    transition-duration: 1s;
+    background-size: cover;
+    object-fit: cover;
+}
+.embMond
+{
+    background-image: url(../../home/mond.webp);
+}
+.embIna
+{
+    background-image: url(../../home/inazuma.webp);
+}
+.embLiyue
+{
+    background-image: url(../../home/liyue.webp);
+}
+.embSumeru
+{
+    background-image: url(../../home/sumeru.webp);
+}
+.emblem:hover
+{
+    opacity: 1;
+}
+.contentHeader
+{
+    text-shadow: 1px 1px 4px rgb(0 0 0);
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+.contentText
+{
+    width: 98%;
+    position: relative;
+    padding: 1%;
+    text-shadow: 1px 1px 4px rgb(0 0 0);
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+.content
+{
+    position: absolute;
+    height: 200px;
+    top: 15px;
+    width: 70%;
+    left: 29%;
+    background-color: black;
+}
+.stateCover
+{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0 0 0 / 70%);
+    transition-duration: 1.5s;
+}
+.stateCover
+{
+    background-color: rgb(0 0 0 / 50%);
+}
+.mondstadt
+{
+    background-image: url(../../home/mond_state.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+.inazuma
+{
+    background-image: url(../../home/ina_state.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+.liyue
+{
+    background-image: url(../../home/state_liyue.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+.sumeru
+{
+    background-image: url(../../home/state_sumeru.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover; 
+}
+
+/* Slide container and slides */
+.slidesContainer
+{
+    position: absolute;
+    width: 64%;
+    height: 38%;
+    top: 8.5%;
+    left: 18%;
+    background-color: rgba(0,0,0,0.9);
+    border: 1px solid aliceblue;
+}
+.slideShowContainer
+{
+    position: absolute;
+    width: 60%;
+    height: 35%;
+    top: 10%;
+    left: 20%;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px 15px rgb(77,77,77,0.2);
+}
+
+.slide
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.slideCover
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(0 0 0 / 50%);
+}
+
+.slide1
+{
+    background-image: url(../../home/slide1.webp);
+    animation: none;
+    display: none;
+}
+.slide2
+{
+    background-image: url(../../home/slide3.webp);
+    animation: none;
+    display: none;
+}
+.slide3
+{
+    background-image: url(../../home/slide2.jpeg);
+    animation: none;
+    display: none;
+}
+
+@keyframes zoomin 
+{
+    0% { transform: scale(1.3, 1.3) }
+    100% { transform: scale(1.0, 1.0) }
+}
+
+.slideText
+{
+    text-shadow: 1px 1px 4px rgb(0 0 0);
+    position: absolute;
+    font-size: 23px;
+    text-align: center;
+    top: 75%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+/*
+.next
+{
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+    cursor: pointer;
+    transition-duration: 0.4s
+}
+.next:hover
+{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+*/
