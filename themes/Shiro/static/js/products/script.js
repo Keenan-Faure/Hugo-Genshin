@@ -2,8 +2,9 @@ $(document).ready(()=>
 {
     $('.rarities').on('dblclick', ()=>
     {
-        if($('.rarities').css('height') != '600px')
+        if($('.rarities').css('height') != '500px')
         {
+            $('.rarities').removeClass('fadeUp'); 
             $('.rarities').addClass('fadeDown');     
         }
         else
@@ -14,65 +15,41 @@ $(document).ready(()=>
     });
     $('.elements').on('dblclick', ()=>
     {
-        if($('.elements').css('height') != '600px')
+        if($('.elements').css('height') != '500px')
         {
-            $('.elements').css(
-                {
-                    "background-position": "relative",
-                    "height": "600px"
-                }
-            )
+            $('.elements').removeClass('fadeUp'); 
+            $('.elements').addClass('fadeDown');     
         }
         else
         {
-            $('.elements').css(
-                {
-                    "background-position": "relative",
-                    "height": ""
-                }
-            )
+            $('.elements').removeClass('fadeDown'); 
+            $('.elements').addClass('fadeUp'); 
         }
     });
     $('.weapons').on('dblclick', ()=>
     {
-        if($('.weapons').css('height') != '600px')
+        if($('.weapons').css('height') != '500px')
         {
-            $('.weapons').css(
-                {
-                    "background-position": "relative",
-                    "height": "600px"
-                }
-            )
+            $('.weapons').removeClass('fadeUp'); 
+            $('.weapons').addClass('fadeDown');     
         }
         else
         {
-            $('.weapons').css(
-                {
-                    "background-position": "relative",
-                    "height": ""
-                }
-            )
+            $('.weapons').removeClass('fadeDown'); 
+            $('.weapons').addClass('fadeUp'); 
         }
     });
     $('.regions').on('dblclick', ()=>
     {
-        if($('.regions').css('height') != '600px')
+        if($('.regions').css('height') != '500px')
         {
-            $('.regions').css(
-                {
-                    "background-position": "relative",
-                    "height": "600px"
-                }
-            )
+            $('.regions').removeClass('fadeUp'); 
+            $('.regions').addClass('fadeDown');     
         }
         else
         {
-            $('.regions').css(
-                {
-                    "background-position": "relative",
-                    "height": ""
-                }
-            )
+            $('.regions').removeClass('fadeDown'); 
+            $('.regions').addClass('fadeUp'); 
         }
     });
 });
