@@ -2,7 +2,7 @@ $(document).ready(()=>
 {
     $('.rarities').on('click', ()=>
     {
-        if($('.rarities').css('height') != '350px')
+        if($('.rarities').css('height') != '400px')
         {
             $('.rarities').removeClass('fadeUp');
             $('.rarities').addClass('fadeDown');
@@ -23,7 +23,7 @@ $(document).ready(()=>
     });
     $('.elements').on('click', ()=>
     {
-        if($('.elements').css('height') != '350px')
+        if($('.elements').css('height') != '400px')
         {
             $('.elements').removeClass('fadeUp'); 
             $('.elements').addClass('fadeDown');  
@@ -44,7 +44,7 @@ $(document).ready(()=>
     });
     $('.weapons').on('click', ()=>
     {
-        if($('.weapons').css('height') != '350px')
+        if($('.weapons').css('height') != '400px')
         {
             $('.weapons').removeClass('fadeUp'); 
             $('.weapons').addClass('fadeDown');   
@@ -65,7 +65,7 @@ $(document).ready(()=>
     });
     $('.regions').on('click', ()=>
     {
-        if($('.regions').css('height') != '350px')
+        if($('.regions').css('height') != '400px')
         {
             $('.regions').removeClass('fadeUp'); 
             $('.regions').addClass('fadeDown');  
