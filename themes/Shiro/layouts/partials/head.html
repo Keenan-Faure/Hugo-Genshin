@@ -11,9 +11,12 @@
         <script src="../js/products/script.js"></script>
     {{end}}
     
-    <link rel="stylesheet" href="../css/home/style.css">
-    {{if not .IsHome}}
+    {{ if not .IsHome }}
         <link rel="stylesheet" href="../css/products/style.css">
+    {{ end }}
+
+    {{ if .IsHome }}
+        <link rel="stylesheet" href="../css/home/style.css">
     {{ end }}
 
     {{ $title := print .Site.Title " | " .Title }}

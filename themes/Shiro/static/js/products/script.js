@@ -1,55 +1,87 @@
 $(document).ready(()=>
 {
-    $('.rarities').on('dblclick', ()=>
+    $('.rarities').on('click', ()=>
     {
-        if($('.rarities').css('height') != '500px')
+        if($('.rarities').css('height') != '350px')
         {
-            $('.rarities').removeClass('fadeUp'); 
-            $('.rarities').addClass('fadeDown');     
+            $('.rarities').removeClass('fadeUp');
+            $('.rarities').addClass('fadeDown');
+            setTimeout(()=>
+            {
+                $('.rarities').children()[2].style.display = 'block'; 
+            }, 300);    
         }
         else
         {
             $('.rarities').removeClass('fadeDown'); 
             $('.rarities').addClass('fadeUp'); 
+            setTimeout(()=>
+            {
+                $('.rarities').children()[2].style.display = 'none'; 
+            }, 10); 
         }
     });
-    $('.elements').on('dblclick', ()=>
+    $('.elements').on('click', ()=>
     {
-        if($('.elements').css('height') != '500px')
+        if($('.elements').css('height') != '350px')
         {
             $('.elements').removeClass('fadeUp'); 
-            $('.elements').addClass('fadeDown');     
+            $('.elements').addClass('fadeDown');  
+            setTimeout(()=>
+            {
+                $('.elements').children()[2].style.display = 'block'; 
+            }, 300);     
         }
         else
         {
             $('.elements').removeClass('fadeDown'); 
             $('.elements').addClass('fadeUp'); 
+            setTimeout(()=>
+            {
+                $('.elements').children()[2].style.display = 'none'; 
+            }, 10); 
         }
     });
-    $('.weapons').on('dblclick', ()=>
+    $('.weapons').on('click', ()=>
     {
-        if($('.weapons').css('height') != '500px')
+        if($('.weapons').css('height') != '350px')
         {
             $('.weapons').removeClass('fadeUp'); 
-            $('.weapons').addClass('fadeDown');     
+            $('.weapons').addClass('fadeDown');   
+            setTimeout(()=>
+            {
+                $('.weapons').children()[2].style.display = 'block'; 
+            }, 300);   
         }
         else
         {
             $('.weapons').removeClass('fadeDown'); 
             $('.weapons').addClass('fadeUp'); 
+            setTimeout(()=>
+            {
+                $('.weapons').children()[2].style.display = 'none'; 
+            }, 10); 
         }
     });
-    $('.regions').on('dblclick', ()=>
+    $('.regions').on('click', ()=>
     {
-        if($('.regions').css('height') != '500px')
+        if($('.regions').css('height') != '350px')
         {
             $('.regions').removeClass('fadeUp'); 
-            $('.regions').addClass('fadeDown');     
+            $('.regions').addClass('fadeDown');  
+            setTimeout(()=>
+            {
+                $('.regions').children()[2].style.display = 'block'; 
+            }, 300);    
         }
         else
         {
             $('.regions').removeClass('fadeDown'); 
             $('.regions').addClass('fadeUp'); 
+            setTimeout(()=>
+            {
+                $('.regions').children()[2].style.display = 'none'; 
+            }, 10);
         }
     });
 });

@@ -65,10 +65,10 @@ body
 {
     position: relative;
     width: 100%;
-    top: 42%;
     overflow: auto;
     padding: 20px;
     transition-duration: 0.5s;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 .region:hover
 {
@@ -79,16 +79,30 @@ body
     position: relative;
     width: 95%;
     height: 230px;
-    background-color: rgba(0, 0, 0, 0.6);
 }
 .image
 {
     position: absolute;
     background-color: black;
     top: 15px;
+    border-radius: 100px;
     left: 10px;
     width: 25%;
     height: 200px;
+}
+.imageText
+{
+    width: 98%;
+    position: relative;
+    padding: 1%;
+    top: 25%;
+    overflow: hidden;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 20px;
+    text-shadow: 1px 1px 4px rgb(0 0 0);
+    font-size: 30px;
+    text-align: center;
+    color: white;
 }
 .archonMond
 {
@@ -292,6 +306,7 @@ body
     background-size: cover;
     background-position: top;
     width: 100%;
+    z-index: 6;
     height: 100%;
     position: absolute;
     object-fit: cover;
@@ -301,7 +316,8 @@ body
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: rgb(0 0 0 / 50%);
+    z-index: 6;
+    background-color: rgb(0 0 0 / 0%);
 }
 
 .slide1
@@ -339,6 +355,101 @@ body
     left: 50%;
     color: white;
     transform: translate(-50%, -50%);
+}
+
+/* information */
+
+.information
+{
+    position: relative;
+    /* top: 42%; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);   
+}
+.infoContain
+{
+    width: 100%;
+    height: 40%;
+    top: 48%;
+    left: 10%;
+    transform: translate(10%, 0%);
+    /* background-color: red; */
+    position: relative;
+}
+.mostTrending
+{
+    width: 20%;
+    border-top: rgb(0, 217, 255) 2px solid;
+    background-color: rgba(255, 255, 255, 0);
+    left: 0;
+    top: 0;
+    display: inline-block;
+}
+.mstTrendImgCover
+{
+    width: 20%;
+    border-radius: 5px;
+    left: 0;
+    top: 0;
+}
+
+#currentEvents
+{
+    left: 50%;
+    top: 0;
+}
+#hoyoTools
+{
+    right: 0;
+    top: 0;
+}
+
+.infoHeader
+{
+    width: 100%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.infoContent
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+}
+.topics
+{
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+}
+.topics:hover
+{
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+.infoText
+{
+    width: 100%;
+    height: 20px;
+    position: relative;
+    padding: 15px 0px;
+    margin: 0;
+    text-shadow: 1px 1px 4px rgb(0 0 0);
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    /* Used to cut text if it exceeds length */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+    /*   */
+}
+
+#infoHeader
+{
+    font-size: 20px;
+    padding: 15px 0px;
+    text-align: center;
 }
 
 /*
