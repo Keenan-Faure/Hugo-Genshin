@@ -1,11 +1,11 @@
 $(document).ready(()=>
 {
-    $('.rarities').on('click', ()=>
+    $('.rarities .headers').on('click', ()=>
     {
         if($('.rarities').css('height') != '400px')
         {
-            $('.rarities').removeClass('fadeUp');
-            $('.rarities').addClass('fadeDown');
+            $('.rarities').removeClass('fadeUp-rarities');
+            $('.rarities').addClass('fadeDown-rarities');
             setTimeout(()=>
             {
                 $('.rarities').children()[2].style.display = 'block'; 
@@ -13,20 +13,20 @@ $(document).ready(()=>
         }
         else
         {
-            $('.rarities').removeClass('fadeDown'); 
-            $('.rarities').addClass('fadeUp'); 
+            $('.rarities').removeClass('fadeDown-rarities'); 
+            $('.rarities').addClass('fadeUp-rarities'); 
             setTimeout(()=>
             {
                 $('.rarities').children()[2].style.display = 'none'; 
             }, 10); 
         }
     });
-    $('.elements').on('click', ()=>
+    $('.elements .headers').on('click', ()=>
     {
-        if($('.elements').css('height') != '400px')
+        if($('.elements').css('height') != '1150px')
         {
-            $('.elements').removeClass('fadeUp'); 
-            $('.elements').addClass('fadeDown');  
+            $('.elements').removeClass('fadeUp-elements'); 
+            $('.elements').addClass('fadeDown-elements');  
             setTimeout(()=>
             {
                 $('.elements').children()[2].style.display = 'block'; 
@@ -34,20 +34,20 @@ $(document).ready(()=>
         }
         else
         {
-            $('.elements').removeClass('fadeDown'); 
-            $('.elements').addClass('fadeUp'); 
+            $('.elements').removeClass('fadeDown-elements'); 
+            $('.elements').addClass('fadeUp-elements'); 
             setTimeout(()=>
             {
                 $('.elements').children()[2].style.display = 'none'; 
             }, 10); 
         }
     });
-    $('.weapons').on('click', ()=>
+    $('.weapons .headers').on('click', ()=>
     {
-        if($('.weapons').css('height') != '400px')
+        if($('.weapons').css('height') != '350px')
         {
-            $('.weapons').removeClass('fadeUp'); 
-            $('.weapons').addClass('fadeDown');   
+            $('.weapons').removeClass('fadeUp-weapons'); 
+            $('.weapons').addClass('fadeDown-weapons');   
             setTimeout(()=>
             {
                 $('.weapons').children()[2].style.display = 'block'; 
@@ -55,20 +55,20 @@ $(document).ready(()=>
         }
         else
         {
-            $('.weapons').removeClass('fadeDown'); 
-            $('.weapons').addClass('fadeUp'); 
+            $('.weapons').removeClass('fadeDown-weapons'); 
+            $('.weapons').addClass('fadeUp-weapons'); 
             setTimeout(()=>
             {
                 $('.weapons').children()[2].style.display = 'none'; 
             }, 10); 
         }
     });
-    $('.regions').on('click', ()=>
+    $('.regions .headers').on('click', ()=>
     {
-        if($('.regions').css('height') != '400px')
+        if($('.regions').css('height') != '350px')
         {
-            $('.regions').removeClass('fadeUp'); 
-            $('.regions').addClass('fadeDown');  
+            $('.regions').removeClass('fadeUp-regions'); 
+            $('.regions').addClass('fadeDown-regions');  
             setTimeout(()=>
             {
                 $('.regions').children()[2].style.display = 'block'; 
@@ -76,8 +76,8 @@ $(document).ready(()=>
         }
         else
         {
-            $('.regions').removeClass('fadeDown'); 
-            $('.regions').addClass('fadeUp'); 
+            $('.regions').removeClass('fadeDown-regions'); 
+            $('.regions').addClass('fadeUp-regions'); 
             setTimeout(()=>
             {
                 $('.regions').children()[2].style.display = 'none'; 

@@ -215,11 +215,106 @@ b
 {
     background-color: rgba(255, 255, 255, 0.5);
 }
-.fadeDown
+.imgHold
+{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.imgContain
+{
+    position: relative;
+    display: inline-block;
+}
+.img
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imgElements
+{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.plus
+{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: -20px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px 10px 0px 0px;
+    text-shadow: 1px 1px 4px rgb(179 177 161);
+    color: rgb(78, 78, 78);
+}
+.imgText-top
+{
+    width: 98%;
+    position: relative;
+    padding: 1%;
+    margin: 0;
+    font-size: 17px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px 10px 0px 0px;
+    text-shadow: 1px 1px 4px rgb(179 177 161);
+    color: rgb(78, 78, 78);
+}
+.imgText-top-elements
+{
+    width: 98%;
+    position: relative;
+    padding: 1%;
+    margin: 0;
+    font-size: 13px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px 10px 0px 0px;
+    text-shadow: 1px 1px 4px rgb(179 177 161);
+    color: rgb(78, 78, 78);
+}
+.imgText-bottom
+{
+    width: 98%;
+    position: relative;
+    padding: 1%;
+    margin: 0;
+    font-size: 17px;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 0px 0px 10px 10px;
+    text-shadow: 1px 1px 4px rgb(179 177 161);
+    color: rgb(78, 78, 78);
+}
+.img:hover
+{
+    animation: 14s ease 0s normal none infinite running slideUp-slow;
+}
+
+/* Rarities */
+
+.fadeDown-rarities
 {
     animation: fade 0.5s ease-out forwards;
 }
-.fadeUp
+.fadeUp-rarities
 {
     animation: fade-back 0.5s ease-out forwards;
 }
@@ -247,60 +342,109 @@ b
         height: 70px;
     }
 }
-.imgHold
+
+/* */
+.fadeDown-elements
 {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
+    animation: fadeE 0.5s ease-out forwards;
 }
-.imgContain
+.fadeUp-elements
 {
-    position: relative;
-    display: inline-block;
+    animation: fade-backE 0.5s ease-out forwards;
 }
-.img
+@keyframes fadeE
 {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    margin: 0;
-    background-color: rgb(50, 99, 99);
-    border: none;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    from
+    {
+        height: 70px;
+    }
+    to
+    {
+        background-position: relative;
+        height: 1150px;
+    }
 }
-.imgText-top
+@keyframes fade-backE
 {
-    width: 98%;
-    position: relative;
-    padding: 1%;
-    margin: 0;
-    font-size: 17px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 10px 10px 0px 0px;
-    text-shadow: 1px 1px 4px rgb(179 177 161);
-    color: rgb(78, 78, 78);
+    from
+    {
+        height: 1150px;
+        background-position: relative;
+    }
+    to
+    {
+        height: 70px;
+    }
 }
-.imgText-bottom
+
+/* */
+.fadeDown-weapons
 {
-    width: 98%;
-    position: relative;
-    padding: 1%;
-    margin: 0;
-    font-size: 17px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 0px 0px 10px 10px;
-    text-shadow: 1px 1px 4px rgb(179 177 161);
-    color: rgb(78, 78, 78);
+    animation: fadeW 0.5s ease-out forwards;
 }
-.img:hover
+.fadeUp-weapons
 {
-    animation: 14s ease 0s normal none infinite running slideUp-slow;
+    animation: fade-backW 0.5s ease-out forwards;
 }
+@keyframes fadeW
+{
+    from
+    {
+        height: 70px;
+    }
+    to
+    {
+        background-position: relative;
+        height: 350px;
+    }
+}
+@keyframes fade-backW
+{
+    from
+    {
+        height: 350px;
+        background-position: relative;
+    }
+    to
+    {
+        height: 70px;
+    }
+}
+
+/* */
+.fadeDown-regions
+{
+    animation: fadeR 0.5s ease-out forwards;
+}
+.fadeUp-regions
+{
+    animation: fade-backR 0.5s ease-out forwards;
+}
+@keyframes fadeR
+{
+    from
+    {
+        height: 70px;
+    }
+    to
+    {
+        background-position: relative;
+        height: 350px;
+    }
+}
+@keyframes fade-backR
+{
+    from
+    {
+        height: 350px;
+        background-position: relative;
+    }
+    to
+    {
+        height: 70px;
+    }
+}
+
 
 #char-1
 {
@@ -309,4 +453,68 @@ b
 #char-2
 {
     background-image: url(../../products/images/GenImp-R-EC.png);
+}
+#anemo
+{
+    background-image: url(../../products/general/anemo.png);
+}
+#electro
+{
+    background-image: url(../../products/general/electro.png);
+}
+#dendro
+{
+    background-image: url(../../products/general/dendro.png);
+}
+#geo
+{
+    background-image: url(../../products/general/geo.png);
+}
+#cyro
+{
+    background-image: url(../../products/general/cyro.png);
+}
+#pyro
+{
+    background-image: url(../../products/general/pyro.png);
+}
+#hydro
+{
+    background-image: url(../../products/general/hydro.png);
+}
+#polearm
+{
+    background-image: url(../../products/general/polearm.webp);
+}
+#sword
+{
+    background-image: url(../../products/general/sword.webp);
+}
+#claymore
+{
+    background-image: url(../../products/general/claymore.webp);
+}
+#catalyst
+{
+    background-image: url(../../products/general/catalyst.webp);
+}
+#bow
+{
+    background-image: url(../../products/general/bow.webp);
+}
+#mond
+{
+    background-image: url(../../home/mond.webp);
+}
+#liyue
+{
+    background-image: url(../../home/liyue.webp);
+}
+#ina
+{
+    background-image: url(../../home/inazuma.webp);
+}
+#sumeru
+{
+    background-image: url(../../home/sumeru.webp);
 }
