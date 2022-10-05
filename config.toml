@@ -15,7 +15,7 @@ theme = "Shiro"
     url = "/tags/"
     weight = 2
   [[menu.main]]
-    name = "Products"
-    pre = "products"
-    url = "/products/"
+    name = "Characters"
+    pre = "characters"
+    url = "/characters/"
     weight = 3
