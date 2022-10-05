@@ -1,0 +1,107 @@
+{{ define "main" }}
+<div class="cover">
+    <!-- Mondstadt characters -->
+    <div class="container">
+        <div class="header">Mondstadt</div>
+        <div class="containerContent">
+            {{ range .Pages }}
+                {{ if eq .Page.Params.region "Mondstadt" }}
+                    {{ if eq .Page.Params.tier "5-Star" }}
+                        <div class="imgContainer">
+                            <p class="imgText-top-chars" id="{{ .Page.Params.element }}-text">{{ .Page.Params.title }}</p>
+                            <img class="img" id="{{ .Page.Params.image }}">
+                            <p class="imgText-bottom">{{ .Page.Params.name }}</p>
+                        </div>
+                    {{ else if eq .Page.Params.tier "4-Star" }}
+                        <div class="imgContainer" id="Four-Star">
+                            <p class="imgText-top-chars" id="{{ .Page.Params.element }}-text">{{ .Page.Params.title }}</p>
+                            <img class="img" id="{{ .Page.Params.image }}">
+                            <p class="imgText-bottom">{{ .Page.Params.name }}</p>
+                        </div>
+                    {{ end }}
+
+                {{ end }}
+            {{ end }}
+        </div>
+        <br>
+    </div>
+
+    <!-- Liyue characters -->
+    <div class="container">
+        <div class="header">Liyue</div>
+        <div class="containerContent">
+            {{ range .Pages }}
+                {{ if eq .Page.Params.region "Liyue" }}
+                    {{ if eq .Page.Params.tier "5-Star" }}
+                        <div class="imgContainer">
+                            <p class="imgText-top-chars" id="{{ .Page.Params.element }}-text">{{ .Page.Params.title }}</p>
+                            <img class="img" id="{{ .Page.Params.image }}">
+                            <p class="imgText-bottom">{{ .Page.Params.name }}</p>
+                        </div>
+                    {{ else if eq .Page.Params.tier "4-Star" }}
+                        <div class="imgContainer" id="Four-Star">
+                            <p class="imgText-top-chars" id="{{ .Page.Params.element }}-text">{{ .Page.Params.title }}</p>
+                            <img class="img" id="{{ .Page.Params.image }}">
+                            <p class="imgText-bottom">{{ .Page.Params.name }}</p>
+                        </div>
+                    {{ end }}
+
+                {{ end }}
+            {{ end }}
+        </div>
+        <br>
+    </div>
+    <!-- Inazuma characters -->
+    <div class="container">
+        <div class="header">Inazuma</div>
+        <div class="containerContent">
+            {{ range .Pages }}
+                {{ if eq .Page.Params.region "Inazuma" }}
+                    {{ if eq .Page.Params.tier "5-Star" }}
+                        <div class="imgContainer">
+                            <p class="imgText-top-chars" id="{{ .Page.Params.element }}-text">{{ .Page.Params.title }}</p>
+                            <img class="img" id="{{ .Page.Params.image }}">
+                            <p class="imgText-bottom">{{ .Page.Params.name }}</p>
+                        </div>
+                    {{ else if eq .Page.Params.tier "4-Star" }}
+                        <div class="imgContainer" id="Four-Star">
+                            <p class="imgText-top-chars" id="{{ .Page.Params.element }}-text">{{ .Page.Params.title }}</p>
+                            <img class="img" id="{{ .Page.Params.image }}">
+                            <p class="imgText-bottom">{{ .Page.Params.name }}</p>
+                        </div>
+                    {{ end }}
+
+                {{ end }}
+            {{ end }}
+        </div>
+        <br>
+    </div>
+
+    <!-- Sumeru characters -->
+    <div class="container">
+        <div class="header">Sumeru</div>
+        <div class="containerContent">
+            {{ range .Pages }}
+                {{ if eq .Page.Params.region "Sumeru" }}
+                    {{ if eq .Page.Params.tier "5-Star" }}
+                        <div class="imgContainer">
+                            <p class="imgText-top-chars" id="{{ .Page.Params.element }}-text">{{ .Page.Params.title }}</p>
+                            <img class="img" id="{{ .Page.Params.image }}">
+                            <p class="imgText-bottom">{{ .Page.Params.name }}</p>
+                        </div>
+                    {{ else if eq .Page.Params.tier "4-Star" }}
+                        <div class="imgContainer" id="Four-Star">
+                            <p class="imgText-top-chars" id="{{ .Page.Params.element }}-text">{{ .Page.Params.title }}</p>
+                            <img class="img" id="{{ .Page.Params.image }}">
+                            <p class="imgText-bottom">{{ .Page.Params.name }}</p>
+                        </div>
+                    {{ end }}
+
+                {{ end }}
+            {{ end }}
+        </div>
+        <br>
+    </div>
+</div>
+
+{{ end }}

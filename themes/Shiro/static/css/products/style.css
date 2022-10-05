@@ -225,6 +225,7 @@ b
 {
     position: relative;
     display: inline-block;
+    padding: 5px;
 }
 .img
 {
@@ -277,6 +278,53 @@ b
     text-shadow: 1px 1px 4px rgb(179 177 161);
     color: rgb(78, 78, 78);
 }
+.imgText-top-chars
+{
+    width: 98%;
+    position: relative;
+    padding: 1%;
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px 10px 0px 0px;
+    text-shadow: 1px 1px 4px rgb(179 177 161);
+    color: rgb(78, 78, 78);
+    /* Used to cut text if it exceeds length */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+    /*   */
+}
+#anemo-text
+{
+    background-color: rgb(64, 206, 21);
+}
+#electro-text
+{
+    background-color: rgb(141, 24, 209);
+}
+#geo-text
+{
+    background-color: rgb(218, 171, 19);
+}
+#dendro-text
+{
+    background-color: rgb(21, 255, 0);
+}
+#hydro-text
+{
+    background-color: rgb(16, 106, 223);
+}
+#cyro-text
+{
+    background-color: rgb(11, 238, 227);
+}
+#pyro-text
+{
+    background-color: rgb(238, 8, 8);
+}
+
 .imgText-top-elements
 {
     width: 98%;
@@ -517,4 +565,111 @@ b
 #sumeru
 {
     background-image: url(../../home/sumeru.webp);
+}
+
+/* Product-list */
+.cover
+{
+    background-color: rgba(155, 155, 155, 0.5);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-top: 5px solid rgb(75, 204, 193);
+}
+.container
+{
+    position: relative;
+    width: 100%;
+}
+.containerContent
+{
+    width: 100%;
+    position: relative;
+}
+.header
+{
+    width: 100%;
+    position: relative;
+    font-size: 25px;
+    padding: 10px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgb(179 177 161);
+    color: rgb(78, 78, 78);
+    background-color: rgba(255, 255, 255, 0.6);
+    transition-duration: 0.3s;
+}
+.header:hover
+{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.imgContainer
+{
+    position: relative;
+    width: 100px;
+    display: inline-block;
+    padding: 5px;
+    top: 5px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#Four-Star
+{
+    background-color: rgba(0,0,0, 0.5);
+}
+.imgContainer:hover
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+}
+.tier
+{
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+.tierText
+{
+    position: relative;
+    padding: 1%;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgb(179, 177, 161);
+    color: rgb(34, 34, 34);
+}
+
+/* Products */
+#GenImp-V-AA
+{
+    background-image: url(../../products/images/GenImp-V-AA.png);
+}
+#GenImp-R-EC
+{
+    background-image: url(../../products/images/GenImp-R-EC.png);
+}
+#GenImp-Amos
+{
+    background-image: url(../../products/images/GenImp-Amos.png);
+}
+#GenImp-AquilaFavonia
+{
+    background-image: url(../../products/images/GenImp-AquilaFavonia.png);
+}
+#GenImp-SkywardAtlas
+{
+    background-image: url(../../products/images/GenImp-SkywardAtlas.png);
+}
+#GenImp-SkywardBlade
+{
+    background-image: url(../../products/images/GenImp-SkywardBlade.png);
+}
+#GenImp-SkywardPride
+{
+    background-image: url(../../products/images/GenImp-SkywardPride.png);
+}
+#GenImp-SkywardSpine
+{
+    background-image: url(../../products/images/GenImp-SkywardSpine.png);
 }
