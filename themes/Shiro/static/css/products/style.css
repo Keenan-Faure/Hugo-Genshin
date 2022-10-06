@@ -39,8 +39,9 @@ body
     width: 100%;
     box-shadow: #6e6e70 1px 0px 10px;
     height: 45px;
-    position: relative;
-    background: rgba(19, 17, 17, 0.7);
+    position: fixed;
+    z-index: 10;
+    background: rgba(19, 17, 17, 0.9)
 }
 .navButton
 {
@@ -153,6 +154,21 @@ body
     text-align: center;
     text-shadow: 1px 1px 4px rgb(179, 177, 161);
     color: rgb(78, 78, 78);
+}
+ul
+{
+    padding-inline-start: 30px;
+}
+li.text
+{
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+}
+li.text:hover
+{
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 .content
 {
@@ -604,10 +620,9 @@ b
 .cover
 {
     background-color: rgba(155, 155, 155, 0.5);
-    width: 73%;
-    left: 10%;
-    /* margin: 0; */
-    height: 100%;
+    width: 80%;
+    left: 18%;
+    top: 45px;
     position: relative;
     filter: blur(10px);
     border-top: 5px solid rgb(75, 204, 193);
@@ -695,6 +710,41 @@ b
     text-shadow: 1px 1px 4px rgb(179, 177, 161);
     color: rgb(34, 34, 34);
 }
+.index-left
+{
+    position: fixed;
+    z-index: 0;
+    top: 45px;
+    width: 18%;
+    height: 100%;
+    background-color: rgba(53, 105, 109, 0.5);
+}
+.index-right
+{
+    position: fixed;
+    z-index: 0;
+    overflow: hidden;
+    right: 0;
+    top: 45px;
+    width: 2%;
+    height: 100%;
+    background-color: rgba(53, 105, 109, 0.5);
+}
+#h1
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-shadow: 1px 1px 4px rgb(179 177 161);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.blueDiv
+{
+    position: relative;
+    width: 100%;
+    border-top: 5px solid lightblue;
+    filter: blur(5px);
+}
 
 /* Products */
 #GenImp-V-AA
@@ -753,7 +803,7 @@ b
 {
     background-image: url(../../products/images/GenImp-E-CC.png);
 }
-#GenImp-ElegyEnd-PC
+#GenImp-ElegyEnd
 {
     background-image: url(../../products/images/GenImp-ElegyEnd.png);
 }
@@ -761,9 +811,9 @@ b
 {
     background-image: url(../../products/images/GenImp-EngulfingLightning.png);
 }
-#GenImp-EverlastingMoonlight
+#GenImp-EverlastingMoonglow
 {
-    background-image: url(../../products/images/GenImp-EverlastingMoonlight.png);
+    background-image: url(../../products/images/GenImp-EverlastingMoonglow.png);
 }
 #GenImp-FreedomSworn
 {
@@ -911,7 +961,7 @@ b
 }
 #GenImp-VortexVanquisher
 {
-    background-image: url(../../products/images/GenImp-Vortexvanquisher.png);
+    background-image: url(../../products/images/GenImp-VortexVanquisher.png);
 }
 #GenImp-Wolfsgravestone
 {
@@ -937,6 +987,95 @@ b
 {
     background-image: url(../../products/images/GenImp-Z-GP.png);
 }
+#GenImp-NE-GC
+{
+    background-image: url(../../products/images/GenImp-NE-GC.png);
+}
+#GenImp-D-CA
+{
+    background-image: url(../../products/images/GenImp-D-CA.png);
+}
+#GenImp-R-CP
+{
+    background-image: url(../../products/images/GenImp-R-CP.png);
+}
+#GenImp-B-PS
+{
+    background-image: url(../../products/images/GenImp-B-PS.png);
+}
+#GenImp-NE-GC
+{
+    background-image: url(../../products/images/GenImp-NE-GC.png);
+}
+#GenImp-X-PC
+{
+    background-image: url(../../products/images/GenImp-X-PC.png);
+}
+#GenImp-N-GC
+{
+    background-image: url(../../products/images/GenImp-N-GC.png);
+}
+#GenImp-X-PP
+{
+    background-image: url(../../products/images/GenImp-X-PP.png);
+}
+#GenImp-C-CC
+{
+    background-image: url(../../products/images/GenImp-C-CC.png);
+}
+#GenImp-X-HS
+{
+    background-image: url(../../products/images/GenImp-X-HS.png);
+}
+#GenImp-YJ-GP
+{
+    background-image: url(../../products/images/GenImp-YJ-GP.png);
+}
+#GenImp-B-EC
+{
+    background-image: url(../../products/images/GenImp-B-EC.png);
+}
+#GenImp-Y-PC
+{
+    background-image: url(../../products/images/GenImp-Y-PC.png);
+}
+#GenImp-SH-AC
+{
+    background-image: url(../../products/images/GenImp-SH-AC.png);
+}
+#GenImp-G-GA
+{
+    background-image: url(../../products/images/GenImp-G-GA.png);
+}
+#GenImp-KS-EA
+{
+    background-image: url(../../products/images/GenImp-KS-EA.png);
+}
+#GenImp-SY-AC
+{
+    background-image: url(../../products/images/GenImp-SY-AC.png);
+}
+#GenImp-C-HP
+{
+    background-image: url(../../products/images/GenImp-C-HP.png);
+}
+#GenImp-C-EP
+{
+    background-image: url(../../products/images/GenImp-C-EP.png);
+}
+#GenImp-C-DA
+{
+    background-image: url(../../products/images/GenImp-C-DA.png);
+}
+#GenImp-T-DA
+{
+    background-image: url(../../products/images/GenImp-T-DA.png);
+}
+#GenImp-HunterPath
+{
+    background-image: url(../../products/images/GenImp-HunterPath.png);
+}
+
 
 
 

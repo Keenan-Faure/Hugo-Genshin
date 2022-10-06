@@ -1,4 +1,47 @@
 {{ define "main" }}
+<div class="index-left">
+    <h1 id="h1" class="text">Index</h1>
+    <div class="blueDiv"></div>
+    <ul>
+        <li class="text">Mondstadt</li>
+        <li class="text">Liyue</li>
+        <li class="text">Inazuma</li>
+        <li class="text">Sumeru</li>
+        
+    </ul>
+    <h1 id="h1" class="text">Mondstadt</h1>
+    <div class="blueDiv"></div>
+    <ul>
+        <li class="text">Characters</li>
+    </ul>
+    <h1 id="h1" class="text">Liyue</h1>
+    <div class="blueDiv"></div>
+    <ul>
+        <li class="text">Characters</li>
+    </ul>
+    <h1 id="h1" class="text">Inazuma</h1>
+    <div class="blueDiv"></div>
+    <ul>
+        <li class="text">Characters</li>
+    </ul>
+    <h1 id="h1" class="text">Sumeru</h1>
+    <div class="blueDiv"></div>
+    <ul>
+        <li class="text">Characters</li>
+    </ul>
+
+    <h1 id="h1" class="text">Weapons</h1>
+    <div class="blueDiv"></div>
+    <ul>
+        <li class="text">Bow</li>
+        <li class="text">Sword</li>
+        <li class="text">Claymore</li>
+        <li class="text">Catalyst</li>
+        <li class="text">Polearm</li>
+    </ul>
+    
+</div>
+<div class="index-right"></div>
 <div class="cover">
     <!-- Mondstadt characters -->
     <div class="container">
@@ -104,6 +147,22 @@
         </div>
         <br>
     </div>
-</div>
+    <!-- Weapons -->
+    <div class="container">
+        <div class="header">Weapons</div>
+        <div class="containerContent">
+            {{ range .Pages }}
+                {{ if eq .Page.Params.type slice "Bow" "Sword" "Claymore" "Catalyst" "Polearm" }}
+                        <div class="imgContainer">
+                            <p class="imgText-top-chars" id="{{ .Page.Params.element }}-text">{{ .Page.Params.title }}</p>
+                            <img class="img" id="{{ .Page.Params.image }}">
+                            <p class="imgText-bottom-chars">{{ .Page.Params.type }}</p>
+                        </div>
 
+                {{ end }}
+            {{ end }}
+        </div>
+        <br>
+    </div>
+</div>
 {{ end }}
