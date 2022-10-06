@@ -10,12 +10,14 @@
                         <div class="imgContainer">
                             <p class="imgText-top-chars" id="{{ .Page.Params.element }}-text">{{ .Page.Params.title }}</p>
                             <img class="img" id="{{ .Page.Params.image }}">
+                            <img class="img-e" id="{{ .Page.Params.element }}">
                             <p class="imgText-bottom-chars">{{ .Page.Params.name }}</p>
                         </div>
                     {{ else if eq .Page.Params.tier "4-Star" }}
                         <div class="imgContainer" id="Four-Star">
                             <p class="imgText-top-chars" id="{{ .Page.Params.element }}-text">{{ .Page.Params.title }}</p>
                             <img class="img" id="{{ .Page.Params.image }}">
+                            <img class="img-e" id="{{ .Page.Params.element }}">
                             <p class="imgText-bottom-chars">{{ .Page.Params.name }}</p>
                         </div>
                     {{ end }}
