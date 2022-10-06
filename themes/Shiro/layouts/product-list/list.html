@@ -1,14 +1,6 @@
 {{ define "main" }}
 <div class="index-left">
     <h1 id="h1" class="text">Index</h1>
-    <div class="blueDiv"></div>
-    <ul>
-        <li class="text">Mondstadt</li>
-        <li class="text">Liyue</li>
-        <li class="text">Inazuma</li>
-        <li class="text">Sumeru</li>
-        
-    </ul>
     <h1 id="h1" class="text">Mondstadt</h1>
     <div class="blueDiv"></div>
     <ul>
@@ -44,7 +36,7 @@
 <div class="index-right"></div>
 <div class="cover">
     <!-- Mondstadt characters -->
-    <div class="container">
+    <div class="container" id="m">
         <div class="header">Mondstadt</div>
         <div class="containerContent">
             {{ range .Pages }}
@@ -72,7 +64,7 @@
     </div>
 
     <!-- Liyue characters -->
-    <div class="container">
+    <div class="container" id="l">
         <div class="header">Liyue</div>
         <div class="containerContent">
             {{ range .Pages }}
@@ -97,7 +89,7 @@
         <br>
     </div>
     <!-- Inazuma characters -->
-    <div class="container">
+    <div class="container" id="i">
         <div class="header">Inazuma</div>
         <div class="containerContent">
             {{ range .Pages }}
@@ -123,7 +115,7 @@
     </div>
 
     <!-- Sumeru characters -->
-    <div class="container">
+    <div class="container" id="s">
         <div class="header">Sumeru</div>
         <div class="containerContent">
             {{ range .Pages }}
@@ -148,7 +140,7 @@
         <br>
     </div>
     <!-- Weapons -->
-    <div class="container">
+    <div class="container" id="w">
         <div class="header">Weapons</div>
         <div class="containerContent">
             {{ range .Pages }}
