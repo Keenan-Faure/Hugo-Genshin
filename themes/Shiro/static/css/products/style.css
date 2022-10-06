@@ -108,7 +108,7 @@ body
 {
     0%
     {
-        background-position: bottom;
+        background-position: center;
     }
     50%
     {
@@ -123,15 +123,15 @@ body
 {
     0%
     {
-        background-position: top;
+        background-position: center;
     }
     50%
     {
-        background-position: center;
+        background-position: top;
     }
     100%
     {
-        background-position: top;
+        background-position: center;
     }
 }
 @keyframes zoomin 
@@ -235,6 +235,21 @@ b
     display: inline-block;
     margin: 0;
     background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img-e
+{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0;
+    left: 5px;
+    bottom: 25px;
     border: none;
     background-repeat: no-repeat;
     background-size: cover;
@@ -589,10 +604,28 @@ b
 .cover
 {
     background-color: rgba(155, 155, 155, 0.5);
-    width: 100%;
+    width: 73%;
+    left: 10%;
+    /* margin: 0; */
     height: 100%;
     position: relative;
+    filter: blur(10px);
     border-top: 5px solid rgb(75, 204, 193);
+}
+.blurry
+{
+    animation: unblur 1.5s ease-out forwards;
+}
+@keyframes unblur
+{
+    from
+    {
+        filter: blur(15px);
+    }
+    to
+    {
+        filter: blur(0px);
+    }
 }
 .container
 {
@@ -605,9 +638,9 @@ b
 }
 .containerContent
 {
-    width: 100%;
+    width: 90%;
     position: relative;
-    padding: 0px 25px;
+    padding: 0px 30px;
 }
 .header
 {
