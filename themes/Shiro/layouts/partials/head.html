@@ -7,9 +7,13 @@
         <script src="../js/script.js"></script>
     {{ end }}
 
-    {{ if eq .Params.Description "products_main"}}
+    {{ if eq .Params.Description "products_main" }}
         <script src="../js/products/script.js"></script>
     {{end}}
+
+    {{ if eq .Params.Description "product-list" }}
+        <script src="../js/products/product-list/script.js"></script>
+    {{ end }}
     
     {{ if not .IsHome }}
         <link rel="stylesheet" href="../css/products/style.css">
