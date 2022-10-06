@@ -599,10 +599,15 @@ b
     position: relative;
     width: 100%;
 }
+.container:hover
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
 .containerContent
 {
     width: 100%;
     position: relative;
+    padding: 0px 25px;
 }
 .header
 {
@@ -675,6 +680,158 @@ b
 {
     background-image: url(../../products/images/GenImp-AquilaFavonia.png);
 }
+#GenImp-A-CA
+{
+    background-image: url(../../products/images/GenImp-A-CA.png);
+}
+#GenImp-A-GC
+{
+    background-image: url(../../products/images/GenImp-A-GC.png);
+}
+#GenImp-A-GS
+{
+    background-image: url(../../products/images/GenImp-A-GS.png);
+}
+#GenImp-A-HA
+{
+    background-image: url(../../products/images/GenImp-A-HA.png);
+}
+#GenImp-A-PA
+{
+    background-image: url(../../products/images/GenImp-A-PA.png);
+}
+#GenImp-AquaSimulacra
+{
+    background-image: url(../../products/images/GenImp-AquaSimulacra.png);
+}
+#GenImp-B-HC
+{
+    background-image: url(../../products/images/GenImp-B-HC.png);
+}
+#GenImp-CalamityQueller
+{
+    background-image: url(../../products/images/GenImp-CalamityQueller.png);
+}
+#GenImp-D-PC
+{
+    background-image: url(../../products/images/GenImp-D-PC.png);
+}
+#GenImp-E-CC
+{
+    background-image: url(../../products/images/GenImp-E-CC.png);
+}
+#GenImp-ElegyEnd-PC
+{
+    background-image: url(../../products/images/GenImp-ElegyEnd.png);
+}
+#GenImp-EngulfingLightning
+{
+    background-image: url(../../products/images/GenImp-EngulfingLightning.png);
+}
+#GenImp-EverlastingMoonlight
+{
+    background-image: url(../../products/images/GenImp-EverlastingMoonlight.png);
+}
+#GenImp-FreedomSworn
+{
+    background-image: url(../../products/images/GenImp-FreedomSworn.png);
+}
+#GenImp-G-CA
+{
+    background-image: url(../../products/images/GenImp-G-CA.png);
+}
+#GenImp-H-PP
+{
+    background-image: url(../../products/images/GenImp-H-PP.png);
+}
+#GenImp-Haran
+{
+    background-image: url(../../products/images/GenImp-Haran.png);
+}
+#GenImp-J-AS
+{
+    background-image: url(../../products/images/GenImp-J-AS.png);
+}
+#GenImp-JadeCutter
+{
+    background-image: url(../../products/images/GenImp-JadeCutter.png);
+}
+#GenImp-K-AS
+{
+    background-image: url(../../products/images/GenImp-K-AS.png);
+}
+#GenImp-K-CS
+{
+    background-image: url(../../products/images/GenImp-K-CS.png);
+}
+#GenImp-K-ES
+{
+    background-image: url(../../products/images/GenImp-K-ES.png);
+}
+#GenImp-K-HS
+{
+    background-image: url(../../products/images/GenImp-K-HS.png);
+}
+#GenImp-K-PC
+{
+    background-image: url(../../products/images/GenImp-K-PC.png);
+}
+#GenImp-KaguraVerity
+{
+    background-image: url(../../products/images/GenImp-KaguraVerity.png);
+}
+#GenImp-KS-ES
+{
+    background-image: url(../../products/images/GenImp-KS-ES.png);
+}
+#GenImp-LostPrayers
+{
+    background-image: url(../../products/images/GenImp-LostPrayers.png);
+}
+#GenImp-M-HC
+{
+    background-image: url(../../products/images/GenImp-M-HC.png);
+}
+#GenImp-MemoryDust
+{
+    background-image: url(../../products/images/GenImp-MemoryDust.png);
+}
+#GenImp-MistReforged
+{
+    background-image: url(../../products/images/GenImp-MistReforged.png);
+}
+#GenImp-PolarStar
+{
+    background-image: url(../../products/images/GenImp-PolarStar.png);
+}
+#GenImp-PrimordialSpear
+{
+    background-image: url(../../products/images/GenImp-PrimordialSpear.png);
+}
+#GenImp-Q-CS
+{
+    background-image: url(../../products/images/GenImp-Q-CS.png);
+}
+#GenImp-R-EC
+{
+    background-image: url(../../products/images/GenImp-R-EC.png);
+}
+#GenImp-R-EP
+{
+    background-image: url(../../products/images/GenImp-R-EP.png);
+}
+#GenImp-RedHornStone
+{
+    background-image: url(../../products/images/GenImp-RedHornStone.png);
+}
+#GenImp-S-CP
+{
+    background-image: url(../../products/images/GenImp-S-CP.png);
+}
+#GenImp-S-HC
+{
+    background-image: url(../../products/images/GenImp-S-HC.png);
+}
 #GenImp-SkywardAtlas
 {
     background-image: url(../../products/images/GenImp-SkywardAtlas.png);
@@ -683,7 +840,11 @@ b
 {
     background-image: url(../../products/images/GenImp-SkywardBlade.png);
 }
-#GenImp-SkywardPride
+#GenImp-SkywardHarp
+{
+    background-image: url(../../products/images/GenImp-SkywardHarp.png);
+}
+#GenImp-SkyWardPride
 {
     background-image: url(../../products/images/GenImp-SkywardPride.png);
 }
@@ -691,3 +852,58 @@ b
 {
     background-image: url(../../products/images/GenImp-SkywardSpine.png);
 }
+#GenImp-SongPines
+{
+    background-image: url(../../products/images/GenImp-SongPines.png);
+}
+#GenImp-StaffHoma
+{
+    background-image: url(../../products/images/GenImp-StaffHoma.png);
+}
+#GenImp-SummitShaper
+{
+    background-image: url(../../products/images/GenImp-SummitShaper.png);
+}
+#GenImp-ThunderingPulse
+{
+    background-image: url(../../products/images/GenImp-ThunderingPulse.png);
+}
+#GenImp-Unforged
+{
+    background-image: url(../../products/images/GenImp-Unforged.png);
+}
+#GenImp-V-AA
+{
+    background-image: url(../../products/images/GenImp-V-AA.png);
+}
+#GenImp-VortexVanquisher
+{
+    background-image: url(../../products/images/GenImp-Vortexvanquisher.png);
+}
+#GenImp-Wolfsgravestone
+{
+    background-image: url(../../products/images/GenImp-Wolfsgravestone.png);
+}
+#GenImp-X-AP
+{
+    background-image: url(../../products/images/GenImp-X-AP.png);
+}
+#GenImp-Y-EC
+{
+    background-image: url(../../products/images/GenImp-Y-EC.png);
+}
+#GenImp-Y-HA
+{
+    background-image: url(../../products/images/GenImp-Y-HA.png);
+}
+#GenImp-Y-PA
+{
+    background-image: url(../../products/images/GenImp-Y-PA.png);
+}
+#GenImp-Z-GP
+{
+    background-image: url(../../products/images/GenImp-Z-GP.png);
+}
+
+
+
