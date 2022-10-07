@@ -8,6 +8,6 @@ tier: "4-Star"
 element: "Electro"
 artifact: ""
 weapon: "Elegy for the end"
-link: ""
+link: "/"
 
 ---

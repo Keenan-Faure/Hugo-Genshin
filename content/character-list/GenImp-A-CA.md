@@ -8,5 +8,6 @@ tier: "5-Star"
 element: "Cyro"
 artifact: ""
 weapon: "Skyward Harp"
+tags: ["2.2", "character"]
 
 ---
