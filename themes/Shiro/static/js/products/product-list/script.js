@@ -51,3 +51,8 @@ $(document).ready(()=>
         },1500);
     });
 });
+
+function redirect(link)
+{
+    return window.location.href='/character-list/' + (link.toLowerCase());
+}
