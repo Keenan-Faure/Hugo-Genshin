@@ -67,6 +67,8 @@ body
 .intro
 {
     background-color: rgba(0,0,0,0.2);
+    position: relative;
+    top: 45px;
 }
 .characterImage
 {
@@ -225,6 +227,8 @@ b
 #bg-color
 {
     background-color: none;
+    position: relative;
+    top: 45px;
     transition-duration: 1s
 }
 #bg-color:hover
