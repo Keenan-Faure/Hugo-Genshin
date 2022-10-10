@@ -1,10 +1,18 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
-        <div class="background">
-            {{- partial "header.html" . -}}
-            {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
+        {{ if not .IsHome }}
+            {{ if eq .Page.Params.Tier slice "5-Star" "4-Star" }}
+                <div class="background" id="{{ .Page.Params.image }}">
+                    {{- partial "header.html" . -}}
+                    {{- block "main" . }}{{- end }}
+                </div>
+            {{ else }}
+                <div class="background">
+                    {{- partial "header.html" . -}}
+                    {{- block "main" . }}{{- end }}
+                </div>
+            {{ end }}
+        {{ end }}
     </body>
 </html>

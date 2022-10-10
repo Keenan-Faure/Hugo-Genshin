@@ -7,7 +7,7 @@ name: "Wolf's Gravestone"
 baseStat: "Attack damage"
 baseAtk: "46"
 series: ""
-affinity: "Claymore"
+type: "Claymore"
 content: A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.
 tags: ["1.0", "weapon"]
 
