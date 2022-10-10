@@ -11,6 +11,6 @@ affiliation: Kaedehara Clan
 weapon: "FreedomSworn"
 content: A wandering samurai of the once-famed Kaedehara Clan, Kazuha is a temporary crewmember of The Crux.
 tags: ["1.6", "character", "inazuma"]
-type: Sword
+affinity: Sword
 
 ---

@@ -144,11 +144,11 @@
         <div class="header">Weapons</div>
         <div class="containerContent">
             {{ range .Pages }}
-                {{ if eq .Page.Params.type slice "Bow" "Sword" "Claymore" "Catalyst" "Polearm" }}
+                {{ if eq .Page.Params.affinity slice "Bow" "Sword" "Claymore" "Catalyst" "Polearm" }}
                         <div class="imgContainer">
                             <p class="imgText-top-chars">{{ .Page.Params.title }}</p>
                             <img class="img" id="{{ .Page.Params.image }}" onclick="redirect('{{ .Page.Params.image }}')">
-                            <p class="imgText-bottom-chars">{{ .Page.Params.type }}</p>
+                            <p class="imgText-bottom-chars">{{ .Page.Params.affinity }}</p>
                         </div>
 
                 {{ end }}

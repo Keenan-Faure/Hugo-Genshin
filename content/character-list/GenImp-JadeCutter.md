@@ -7,7 +7,7 @@ name: "Primordial Jade Cutter"
 baseStat: "Crit rate"
 baseAtk: "44"
 series: "Primordial Jade Series"
-type: "Sword"
+affinity: "Sword"
 content: A ceremonial sword masterfully carved from pure jade. There almost seems to be an audible sigh in the wind as it is swung.
 tags: ["1.3", "weapon"]
 

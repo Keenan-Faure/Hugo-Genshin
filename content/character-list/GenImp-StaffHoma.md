@@ -7,7 +7,7 @@ name: "Staff of Homa"
 baseStat: "Crit damage"
 baseAtk: "46"
 series: ""
-type: "Polearm"
+affinitynity: "Polearm"
 content: A 'firewood staff' that was once used in ancient and long-lost rituals.
 tags: ["1.3", "weapon"]
 

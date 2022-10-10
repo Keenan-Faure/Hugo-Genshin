@@ -9,7 +9,7 @@ element: "Pyro"
 artifact: "BloodstainedChivalry"
 affiliation: "The Red Strings"
 weapon: "Unforged"
-type: Claymore
+affinity: Claymore
 content: Rock 'n' roll is a relatively unpopular style of music in Liyue, having recently been brought over from Fontaine. Xinyan, however, loves the sound — and she's slowly but surely amassing a fanbase of her own as she performs throughout Liyue Harbor.
 tags: ["1.1", "character", "liyue"]
 

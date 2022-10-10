@@ -10,7 +10,7 @@ artifact: "ArchaicPetra"
 artifact2: NoblesseOblige
 affiliation: Liyue Qixing
 weapon: "MemoryDust"
-type: "Catalyst"
+affinity: "Catalyst"
 content: She is the Tianquan of the Liyue Qixing and owns the floating Jade Chamber in the skies of Liyue.
 tags: ["1.0", "character", "liyue"]
 

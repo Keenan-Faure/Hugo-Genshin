@@ -4,13 +4,13 @@
             <p class="text" style="font-size: 25px;">{{ .Params.title }}</p>
         </div>
         <div class="introduction">
-            <p class="text">{{ .Page.Content }}</p>
+            <p class="text">{{ .Params.content }}</p>
         </div>
         <div class="info-left">
             <div class="data-cell-head">Region</div>
             <div class="data-cell" id="{{ .Params.region }}"></div>
             <div class="data-cell-head">Weapon Type</div>
-            <div class="data-cell" id="{{ .Params.weapon }}"></div>
+            <div class="data-cell" id="{{ .Params.affinity }}"></div>
         </div>
         <div class="info-left">
             <div class="data-cell-head">Vision</div>

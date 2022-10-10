@@ -9,7 +9,7 @@ element: "Geo"
 artifact: "HuskofOpulentDreams"
 affiliation: Yun-Han Opera Troupe
 weapon: "SkywardSpine"
-type: Polearm
+affinity: Polearm
 content: She is a prestigious dancer, singer, and brewer in Liyue who works at the Heyu Tea House.
 tags: ["2.4", "character", "liyue"]
 

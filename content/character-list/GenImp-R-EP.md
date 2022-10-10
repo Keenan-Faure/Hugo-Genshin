@@ -9,7 +9,7 @@ element: "Electro"
 artifact: "EmblemofSeveredFate"
 affiliation: Inazuma Shogunate
 weapon: "EngulfingLightning"
-type: "Polearm"
+affinitynity: "Polearm"
 content: As the Shogun, she is the vessel of Beelzebul, the current Electro Archon of Inazuma.
 tags: ["2.1", "character", "inazuma"]
 

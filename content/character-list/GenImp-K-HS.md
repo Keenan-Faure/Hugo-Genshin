@@ -11,6 +11,6 @@ affiliation: Kamisato Clan
 weapon: "Haran"
 content: He is the current head of the Kamisato Clan, the older brother of Kamisato Ayaka, and the Yashiro Commissioner.
 tags: ["2.6", "character", "inazuma"]
-type: Sword
+affinity: Sword
 
 ---

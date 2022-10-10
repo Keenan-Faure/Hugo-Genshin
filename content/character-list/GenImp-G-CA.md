@@ -10,7 +10,7 @@ affiliation: Yuehai Pavilion
 artifact: "WanderersTroupe"
 weapon: "Amos"
 content: She is a half-qilin Adeptus under contract with the Geo Archon Morax and serves as the general secretary of the Liyue Qixing.
-type: Bow
+affinity: Bow
 tags: ["1.2", "character", "liyue"]
 
 ---

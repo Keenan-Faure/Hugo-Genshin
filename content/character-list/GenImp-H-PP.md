@@ -10,7 +10,7 @@ artifact: "CrimsonWitchofFlames"
 affiliation: Wangsheng Funeral Parlor
 weapon: "StaffofHoma"
 content: She is the 77th Director of the Wangsheng Funeral Parlor, located in Liyue Harbor.
-type: Polearm
+affinity: Polearm
 tags: ["1.3", "character", "liyue"]
 
 ---

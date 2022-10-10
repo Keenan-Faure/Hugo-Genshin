@@ -7,7 +7,7 @@ name: "Amos Bow"
 baseStat: "Energy recharge"
 baseAtk: "46"
 series: "Millennial Movement Series"
-type: "Bow"
+affinity: "Bow"
 content: An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is.
 tags: ["1.0","weapon"]
 

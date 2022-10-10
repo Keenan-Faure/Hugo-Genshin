@@ -12,6 +12,6 @@ affiliation: Liyue Qixing
 weapon: "JadeCutter"
 content: As the Yuheng of the Liyue Qixing, she is someone who seeks her own answers instead of idly letting chaos run amok in Liyue. She chooses her own path with her own power and ability, instead of letting the gods determine her fate.
 tags: ["1.0", "character", "liyue"]
-type: Sword
+affinity: Sword
 
 ---

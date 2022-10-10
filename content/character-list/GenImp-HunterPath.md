@@ -7,7 +7,7 @@ name: "Hunter's Path"
 baseStat: "Crit Rate"
 baseAtk: "44"
 series: ""
-type: "Bow"
+affinity: "Bow"
 content: This gilded bow was made using precious white branches. It has felled countless wicked beasts attempting to infiltrate the woods.
 tags: ["3.0", "weapon"]
 
