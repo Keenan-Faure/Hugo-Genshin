@@ -6,7 +6,10 @@ image: "GenImp-KS-ES"
 region: "Inazuma"
 tier: "3-Star"
 element: "Electro"
-artifact: ""
-weapon: "Primordial Jade Cutter"
+artifact: "ThunderingFury"
+affiliation: "Arataki Gang"
+weapon: "JadeCutter"
 
 ---
+
+She is the sidekick of Arataki Itto and Deputy Leader of the Arataki Gang.

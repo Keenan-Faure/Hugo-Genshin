@@ -6,7 +6,10 @@ image: "GenImp-H-PP"
 region: "Liyue"
 tier: "5-Star"
 element: "Pyro"
-artifact: ""
-weapon: "Staff of Homa"
+artifact: "CrimsonWitchofFlames"
+affiliation: Wangsheng Funeral Parlor
+weapon: "StaffofHoma"
 
 ---
+
+She is the 77th Director of the Wangsheng Funeral Parlor, located in Liyue Harbor.

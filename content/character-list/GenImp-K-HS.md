@@ -6,7 +6,10 @@ image: "GenImp-K-HS"
 region: "Inazuma"
 tier: "5-Star"
 element: "Hydro"
-artifact: ""
-weapon: "Haran Geppaku Futsu"
+artifact: "EchoesofanOffering"
+affiliation: Kamisato Clan
+weapon: "Haran"
 
 ---
+
+He is the current head of the Kamisato Clan, the older brother of Kamisato Ayaka, and the Yashiro Commissioner.

@@ -6,7 +6,10 @@ image: "GenImp-T-DA"
 region: "Sumeru"
 tier: "5-Star"
 element: "Dendro"
-artifact: ""
-weapon: "Hunter's Path"
+artifact: "DeepwoodMemories"
+affiliation: Forest Rangers
+weapon: "HunterPath"
 
 ---
+
+A Forest Watcher on profile in Gandharva Ville. Despite his intelligence, he prefers to live a solitary life in the depths of Avidya Forest rather than in the ivory tower of Sumeru Akademiya.

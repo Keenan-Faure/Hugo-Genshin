@@ -78,3 +78,125 @@ body
         background-position: center;
     }
 }
+.holder
+{
+    position: relative;
+    width: 100%;
+    top: 45px;
+}
+.title
+{
+    position: relative;
+    /* Border of the <hr> */
+    border-style: inset;
+    border-width: 1px;
+    /*  */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.introduction
+{
+    position: relative;
+    /* Border of the <hr> */
+    border-style: inset;
+    border-width: 1px;
+    /*  */
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+b
+{
+    color: rgb(28, 137, 145);
+    cursor: pointer;
+}
+.text
+{
+    width: 98%;
+    position: relative;
+    padding: 1%;
+    font-size: 17px;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgb(179, 177, 161);
+    color: rgb(78, 78, 78);
+    margin: 0;
+}
+.info
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    top: 30px;
+}
+.info-left
+{
+    position: relative;
+    /* Border of the <hr> */
+    border-style: inset;
+    border-width: 1px;
+    /*  */
+    width: 30%;
+    height: 400px;
+    left: 0;
+    top: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.info-right
+{
+    position: absolute;
+    border-style: inset;
+    border-width: 1px;
+    width: 30%;
+    height: 400px;
+    top: 250px;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.line
+{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.data-cell-head
+{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+
+    font-size: 17px;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgb(179, 177, 161);
+    color: rgb(78, 78, 78);
+    margin: 0;
+}
+.data-cell
+{
+    width: 100%;
+    position: relative;
+    height: 150px;
+    background-color: rgba(255,252, 252, 0.5);
+}
+a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.from
+{
+    width: 98%;
+    position: absolute;
+    left: 0;
+    padding: 1%;
+    /* font-size: 10px; */
+    text-align: right;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(165 165 165);
+}

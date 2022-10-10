@@ -6,7 +6,10 @@ image: "GenImp-Y-PA"
 region: "Inazuma"
 tier: "5-Star"
 element: "Pyro"
-artifact: ""
-weapon: "Thundering Pulse"
+affiliation: Naganohara Fireworks
+artifact: "ShimenawaReminiscence"
+weapon: "ThunderingPulse"
 
 ---
+
+She is the daughter of Naganohara Ryuunosuke and the current owner of Naganohara Fireworks. With her colorful fireworks and outgoing personality, Yoimiya is loved by everyone on Narukami Island, as they believe summer is not the same without her.

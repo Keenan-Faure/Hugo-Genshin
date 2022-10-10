@@ -6,7 +6,10 @@ image: "GenImp-X-PP"
 region: "Liyue"
 tier: "4-Star"
 element: "Pyro"
-artifact: ""
-weapon: "The Catch"
+artifact: "CrimsonWitchofFlames"
+affiliation: Wanmin Restaurant
+weapon: "SkywardSpine"
 
 ---
+
+She is the Head Chef at the Wanmin Restaurant and runs it alongside her father Chef Mao. As a chef, Xiangling isn't afraid to try out different recipes or "exotic" ingredients... making her dishes sometimes quite unique.

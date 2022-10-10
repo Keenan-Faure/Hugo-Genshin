@@ -6,7 +6,10 @@ image: "GenImp-Y-PC"
 region: "Liyue"
 tier: "4-Star"
 element: "Pyro"
-artifact: ""
-weapon: "Lost Prayers of the Sacred Winds"
+artifact: "CrimsonWitchofFlames"
+affiliation: Yanfei Legal Consultancy
+weapon: "LostPrayers"
 
 ---
+
+She is the child of an adeptus father and human mother. After she grew up, her parents left to go on an adventure, placing her in the care of Madame Ping. She resides in Liyue, serving as a legal advisor for its people.

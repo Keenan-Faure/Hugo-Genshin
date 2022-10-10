@@ -6,7 +6,10 @@ image: "GenImp-L-EC"
 region: "Monstadt"
 tier: "4-Star"
 element: "Electro"
-artifact: ""
-weapon: "Lost Prayers to the Sacred Winds"
+affiliation: Knights of Favonius
+artifact: "ThunderingFury"
+weapon: "LostPrayers"
 
 ---
+
+A powerful mage recognized as Sumeru Akademiya's most distinguished graduate in 200 years, Lisa has since returned to Mondstadt to become the humble Librarian of the Knights of Favonius.

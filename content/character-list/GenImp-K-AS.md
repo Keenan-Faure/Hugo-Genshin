@@ -6,7 +6,10 @@ image: "GenImp-K-AS"
 region: "Inazuma"
 tier: "5-Star"
 element: "Anemo"
-artifact: ""
-weapon: "Freedom Sworn"
+artifact: "ViridescentVenerer"
+affiliation: Kaedehara Clan
+weapon: "FreedomSworn"
 
 ---
+
+A wandering samurai of the once-famed Kaedehara Clan, Kazuha is a temporary crewmember of The Crux.

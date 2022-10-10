@@ -6,7 +6,8 @@ image: "GenImp-SY-AC"
 region: "Inazuma"
 tier: "4-Star"
 element: "Anemo"
-artifact: ""
+artifact: "ViridescentVenerer"
+affiliation: Shuumatsuban
 weapon: "Unforged"
 
 ---

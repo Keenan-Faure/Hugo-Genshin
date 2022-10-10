@@ -6,7 +6,10 @@ image: "GenImp-X-AP"
 region: "Liyue"
 tier: "5-Star"
 element: "Anemo"
-artifact: ""
-weapon: "Primordial Jade Winged Spear"
+artifact: "VermillionHereafter"
+affiliation: Yakshas
+weapon: "PrimordialSpear"
 
 ---
+
+He is an adeptus, under the name Alatus, and the sole surviving member of the five foremost Yakshas dispatched by Morax to subdue the demonic spirits that plagued Liyue. He currently resides at Wangshu Inn and mostly restrains himself from large crowds and social interactions.
