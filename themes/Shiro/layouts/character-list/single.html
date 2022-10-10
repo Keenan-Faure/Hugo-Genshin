@@ -1,29 +1,32 @@
 {{ define "main" }}
     <div class="holder">
         <div class="title">
-            <p class="text" style="font-size: 25px;">I am title</p>
+            <p class="text" style="font-size: 25px;">{{ .Params.title }}</p>
         </div>
         <div class="introduction">
-            <p class="text">Cyno is a <b>Polearm 5-Star playable</b> <b>electro</b> character in <b>Genshin Impact</b>. As the General Mahamatra, 
-                Cyno leads the Matra and strikes fear into the hearts of researchers of the <b>Sumeru Akademiya.</b></p>
+            <p class="text">{{ .Page.Content }}</p>
         </div>
         <div class="info-left">
             <div class="data-cell-head">Region</div>
-            <div class="data-cell">Sumeru</div>
+            <div class="data-cell" id="{{ .Params.region }}"></div>
             <div class="data-cell-head">Weapon Type</div>
-            <div class="data-cell">Polearm</div>
+            <div class="data-cell" id="{{ .Params.weapon }}"></div>
         </div>
         <div class="info-left">
             <div class="data-cell-head">Vision</div>
-            <div class="data-cell">Electro</div>
+            <div class="data-cell" id="{{ .Params.element }}"></div>
             <div class="data-cell-head">Affiliation</div>
-            <div class="data-cell">Leader of Mantra</div>
+            <div class="data-cell text">
+                <ul>
+                    <li>{{ .Params.affiliation }}</li>
+                </ul>
+            </div>
         </div>
         <div class="info-right">
             <div class="data-cell-head">Best Artifact set</div>
-            <div class="data-cell">Artifact set</div>
+            <div class="data-cell" id="{{ .Params.artifact }}"></div>
             <div class="data-cell-head">Best weapon</div>
-            <div class="data-cell">Best weapon</div>
+            <div class="data-cell" id="GenImp-{{ .Params.weapon }}"></div>
         </div>
     </div>
     <div class="from">Image taken from: <a href="https://genshin-impact.fandom.com">Genshin Impact Fandom</a></div>
