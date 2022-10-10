@@ -8,5 +8,7 @@ baseStat: "Crit rate"
 baseAtk: "46"
 series: ""
 type: "Sword"
+content: A famed work by the Futsu line of smiths. The name "Haran" comes from the manner in which it resembles the violent, roiling waves.
+tags: ["2.6", "weapon"]
 
 ---

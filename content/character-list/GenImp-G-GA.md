@@ -8,8 +8,9 @@ tier: "4-Star"
 element: "Geo"
 artifact: "HuskofOpulentDreams"
 affiliation: Watatsumi Army, Watatsumi Island
-weapon: "SacrificalBow"
+weapon: "SkywardHarp"
+content: He is the courageous and reliable general of the Watatsumi Army, a leader whose men can always place their trust in.
+type: Bow
+tags: ["2.3", "character", "inazuma"]
 
 ---
-
-He is the courageous and reliable general of the Watatsumi Army, a leader whose men can always place their trust in.

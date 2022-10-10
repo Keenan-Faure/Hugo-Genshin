@@ -8,5 +8,7 @@ baseStat: "Energy Recharge"
 baseAtk: "46"
 series: "Millennial Movement Series"
 type: "Bow"
+content: A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh.
+tags: ["1.4", "weapon"]
 
 ---

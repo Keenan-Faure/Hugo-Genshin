@@ -9,7 +9,8 @@ element: "Hydro"
 artifact: "NoblesseOblige"
 affiliation: Aaru Village
 weapon: "SkywardSpine"
+content: The scion of Al-Ahmar and the Guardian of Aaru Village, Candace is kind to travelers who visit, but is unforgiving to those who violate the village's rules.
+type: Polearm
+tags: ["3.1", "character", "sumeru"]
 
 ---
-
-The scion of Al-Ahmar and the Guardian of Aaru Village, Candace is kind to travelers who visit, but is unforgiving to those who violate the village's rules.

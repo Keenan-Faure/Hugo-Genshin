@@ -8,5 +8,7 @@ baseStat: "Crit damage"
 baseAtk: "46"
 series: "Inazuma Series"
 type: "Catalyst"
+content: The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it.
+tags: ["2.5", "weapon"]
 
 ---

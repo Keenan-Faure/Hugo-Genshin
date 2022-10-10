@@ -8,5 +8,7 @@ baseStat: "Crit damage"
 baseAtk: "46"
 series: "Inazuma Series"
 type: "Bow"
+content: A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.
+tags: ["2.0", "weapon"]
 
 ---

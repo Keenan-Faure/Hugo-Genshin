@@ -9,7 +9,8 @@ element: "Cyro"
 artifact: "BloodstainedChivalry"
 affiliation: Church of Favonius
 weapon: "SkywardSpine"
+type: "Polearm"
+content: She is a nun at the Church of Favonius in the City of Mondstadt.
+tags: ["1.4", "character", "mondstadt"]
 
 ---
-
-She is a nun at the Church of Favonius in the City of Mondstadt.

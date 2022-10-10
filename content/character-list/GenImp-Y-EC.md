@@ -10,7 +10,8 @@ artifact: "ThunderingFury"
 artifact: "Gladiator"
 affiliation: Grand Narukami Shrine
 weapon: "KaguraVerity"
+type: Catalyst
+content: Miko oversees the Grand Narukami Shrine and is the owner of the Yae Publishing House.
+tags: ["2.5", "character", "inazuma"]
 
 ---
-
-Miko oversees the Grand Narukami Shrine and is the owner of the Yae Publishing House.

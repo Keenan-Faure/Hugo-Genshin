@@ -9,7 +9,8 @@ element: "Electro"
 artifact: "ThunderingFury"
 affiliation: "Arataki Gang"
 weapon: "JadeCutter"
+type: "Sword"
+content: She is the sidekick of Arataki Itto and Deputy Leader of the Arataki Gang.
+tags: ["2.7", "character", "inazuma"]
 
 ---
-
-She is the sidekick of Arataki Itto and Deputy Leader of the Arataki Gang.

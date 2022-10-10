@@ -9,7 +9,8 @@ element: "Anemo"
 affiliation: City of Mondstadt
 artifact: "ViridescentVenerer"
 weapon: "ElegyEnd"
+type: Bow
+content: He is a free-spirited, wine-loving bard in Mondstadt and the current mortal vessel of Barbatos, the Anemo Archon.
+tags: ["1.0", "character", "mondstadt"]
 
 ---
-
-He is a free-spirited, wine-loving bard in Mondstadt and the current mortal vessel of Barbatos, the Anemo Archon.

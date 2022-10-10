@@ -11,8 +11,8 @@ weapon: "SkywardHarp"
 artifact: BlizzardStrayer
 artifact2: Gladiator
 affiliation: Wanderig Heroine
-tags: ["2.2", "character"]
+type: Bow
+content: She is the heroine from Horizon Zero Dawn and is introduced as a collaboration and crossover character between Guerrilla Games and HoYoverse.
+tags: ["2.2", "character", "mondstadt"]
 
 ---
-
-She is the heroine from Horizon Zero Dawn and is introduced as a collaboration and crossover character between Guerrilla Games and HoYoverse.

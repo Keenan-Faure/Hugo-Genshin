@@ -9,7 +9,8 @@ element: "Cyro"
 affiliation: Yuehai Pavilion
 artifact: "WanderersTroupe"
 weapon: "Amos"
+content: She is a half-qilin Adeptus under contract with the Geo Archon Morax and serves as the general secretary of the Liyue Qixing.
+type: Bow
+tags: ["1.2", "character", "liyue"]
 
 ---
-
-She is a half-qilin Adeptus under contract with the Geo Archon Morax and serves as the general secretary of the Liyue Qixing.

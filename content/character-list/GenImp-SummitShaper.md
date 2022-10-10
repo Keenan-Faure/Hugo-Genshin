@@ -8,5 +8,7 @@ baseStat: "Attack"
 baseAtk: "46"
 series: "Liyue Series"
 type: "Sword"
+content: A symbol of a legendary pact, this sharp blade once cut off the peak of a mountain.
+tags: ["1.2", "character", "mondstadt"]
 
 ---

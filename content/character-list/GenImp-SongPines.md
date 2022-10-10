@@ -8,5 +8,7 @@ baseStat: "Physical damage"
 baseAtk: "49"
 series: "Millennial Movement Series"
 type: "Claymore"
+content: A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.
+tags: ["1.5", "weapon"]
 
 ---

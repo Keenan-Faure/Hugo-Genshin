@@ -9,7 +9,8 @@ element: "Cyro"
 artifact: "BlizzardStrayer"
 affiliation: Knights of Favonius
 weapon: "SkywardBlade"
+content: Kaeya is the Cavalry Captain of the Knights of Favonius. He is held in high regard by the people of Mondstadt — even with all his eccentricities and secrets.
+tags: ["1.0", "character", "mondstadt"]
+type: Sword
 
 ---
-
-Kaeya is the Cavalry Captain of the Knights of Favonius. He is held in high regard by the people of Mondstadt — even with all his eccentricities and secrets.
