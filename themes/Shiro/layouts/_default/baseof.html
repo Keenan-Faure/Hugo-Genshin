@@ -13,6 +13,11 @@
                     {{- block "main" . }}{{- end }}
                 </div>
             {{ end }}
+        {{ else }}
+            <div class="background">
+                {{- partial "header.html" . -}}
+                {{- block "main" . }}{{- end }}
+            </div>
         {{ end }}
     </body>
 </html>

@@ -124,7 +124,8 @@ b
     position: relative;
     border-style: inset;
     border-width: 1px;
-    width: 12%;
+    width: 150px;
+    height: 400px;
     left: 0;
     top: 30px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -134,7 +135,8 @@ b
     position: absolute;
     border-style: inset;
     border-width: 1px;
-    width: 10%;
+    width: 150px;
+    height: 340px;
     top: 250px;
     right: 0;
     background-color: rgba(255, 255, 255, 0.5);
