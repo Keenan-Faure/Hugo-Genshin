@@ -41,14 +41,14 @@
                     {{ if eq .Page.Params.tier "5-Star" }}
                         <div class="imgContainer">
                             <p class="imgText-top-chars">{{ .Page.Params.title }}</p>
-                            <img class="img" id="{{ .Page.Params.image }}" onclick="redirect('{{ .Page.Params.image }}')">
+                            <a href='{{ lower .Page.Params.image }}'><img class="img" id="{{ .Page.Params.image }}" onclick="redirect('{{ .Page.Params.image }}')"></a>
                             <img class="img-e" id="{{ .Page.Params.element }}">
                             <p class="imgText-bottom-chars">{{ .Page.Params.name }}</p>
                         </div>
                     {{ else if eq .Page.Params.tier "4-Star" }}
                         <div class="imgContainer" id="Four-Star">
                             <p class="imgText-top-chars">{{ .Page.Params.title }}</p>
-                            <img class="img" id="{{ .Page.Params.image }}" onclick="redirect('{{ .Page.Params.image }}')">
+                            <a href='{{ lower .Page.Params.image }}'><img class="img" id="{{ .Page.Params.image }}" onclick="redirect('{{ .Page.Params.image }}')"></a>
                             <img class="img-e" id="{{ .Page.Params.element }}">
                             <p class="imgText-bottom-chars">{{ .Page.Params.name }}</p>
                         </div>
@@ -150,10 +150,9 @@
                 {{ if eq .Page.Params.type slice "Bow" "Sword" "Claymore" "Catalyst" "Polearm" }}
                         <div class="imgContainer">
                             <p class="imgText-top-chars">{{ .Page.Params.title }}</p>
-                            <img class="img" id="{{ .Page.Params.image }}" onclick="redirect('{{ .Page.Params.image }}')">
+                            <img class="img" id="{{ .Page.Params.image }}">
                             <p class="imgText-bottom-chars">{{ .Page.Params.type }}</p>
                         </div>
-
                 {{ end }}
             {{ end }}
         </div>

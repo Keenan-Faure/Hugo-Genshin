@@ -125,10 +125,10 @@ b
     border-style: inset;
     border-width: 1px;
     width: 150px;
-    height: 400px;
+    height: 340px;
     left: 0;
     top: 30px;
-    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: rgba(255, 255, 255, 0.5);*/
 }
 .info-right
 {
@@ -139,7 +139,7 @@ b
     height: 340px;
     top: 250px;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: rgba(255, 255, 255, 0.5);*/
 }
 .line
 {
@@ -179,15 +179,16 @@ b
 a
 {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 0, 0, 0.5);
 }
 ul
 {
-    padding-inline-start: 30px;
+    padding-inline-start: 20px;
 }
 li
 {
     text-align: left;
+    padding: 0;
 }
 .from
 {

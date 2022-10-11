@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+{{ if eq (path.Base .Page.Permalink)  "tags" }}
+<div class="tag-container">
+    <div class="table">
+        <div class="table-header">Tags</div>
+        <div class="tableContent">
+            {{ range .Pages.ByPublishDate.Reverse }}
+                    <a href="{{ .RelPermalink }}" class="cell">{{ .Title }}</a>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ else }}
+
+<div class="tag-container">
+    <div class="table">
+        <div class="table-header">Tags</div>
+        <div class="tableContent">
+            {{ range .Pages.ByPublishDate.Reverse }}
+                {{ if isset .Params "type" }}
+                    <div class="imgContainer">
+                        <p class="imgText-top-chars">{{ .Page.Params.title }}</p>
+                        <a><img class="img" id="{{ .Page.Params.image }}"></a>
+                        <p class="imgText-bottom-chars">{{ .Page.Params.type }}</p>
+                    </div>
+                {{ else }}
+                    <div class="imgContainer">
+                        <p class="imgText-top-chars">{{ .Page.Params.title }}</p>
+                        <a href='{{ .RelPermalink }}'><img class="img" id="{{ .Page.Params.image }}"></a>
+                        <img class="img-e" id="{{ .Page.Params.element }}">
+                        <p class="imgText-bottom-chars">{{ .Page.Params.name }}</p>
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ end }}
+
+{{ end }}
