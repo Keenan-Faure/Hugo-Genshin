@@ -818,7 +818,7 @@ b
     display: inline-block;
     width: 100px;
     font-size: 20px;
-    background-color: rgba(35, 165, 182, 0.7);
+    background-color: rgb(0 226 255 / 70%);
     transition-duration: 0.5s;
     border: 1px solid black;
     text-align: center;
@@ -834,7 +834,7 @@ b
 }
 .cell:hover
 {
-    background-color:rgba(90, 200, 207, 0.9);
+    background-color:rgba(255, 255, 255, 0.9);
 }
 
 /* Products */
@@ -889,6 +889,10 @@ b
 #GenImp-D-PC
 {
     background-image: url(../../products/images/GenImp-D-PC.webp);
+}
+#GenImp-D-EC
+{
+    background-image: url(../../products/images/GenImp-D-EC.webp);
 }
 #GenImp-E-CC
 {
