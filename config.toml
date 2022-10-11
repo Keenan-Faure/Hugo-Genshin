@@ -1,6 +1,6 @@
 baseURL = 'https://shiro.com/'
 languageCode = 'en-us'
-title = 'Shiro Makurokurosuke'
+title = 'Genshin Hugo'
 theme = "Shiro"
 
 [menu]
