@@ -1,6 +1,10 @@
 $(document).ready(()=>
 {
-    $('.cover').addClass('blurry');
+    $(".splash").fadeOut(1800);
+    setTimeout(()=>
+    {
+        $('.cover').addClass('blurry');
+    }, 2000);
 });
 
 $(document).ready(()=>
