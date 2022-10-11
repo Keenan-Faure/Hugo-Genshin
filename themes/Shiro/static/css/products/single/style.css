@@ -102,6 +102,11 @@ body
     /*  */
     width: 100%;
     background-color:rgba(255, 255, 255, 0.5);
+    transition-duration: 0.5s;
+}
+.introduction:hover
+{
+    background-color: rgba(68, 62, 62, 0.4);
 }
 b
 {
@@ -175,6 +180,11 @@ b
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition-duration: 0.5s;
+}
+.data-cell:hover
+{
+    background-color: rgba(68, 62, 62, 0.4);
 }
 a
 {
@@ -397,6 +407,14 @@ li
 #GenImp-LostPrayers
 {
     background-image: url(../../../products/images/GenImp-LostPrayers.png);
+}
+#GenImp-S-AC
+{
+    background-image: url(../../../products/images/GenImp-S-AC.webp);
+}
+#GenImp-KA-CS
+{
+    background-image: url(../../../products/images/GenImp-KA-CS.webp);
 }
 #GenImp-M-HC
 {

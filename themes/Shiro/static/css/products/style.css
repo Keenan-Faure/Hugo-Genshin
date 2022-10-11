@@ -886,6 +886,10 @@ b
 {
     background-image: url(../../products/images/GenImp-CalamityQueller.png);
 }
+#GenImp-S-AC
+{
+    background-image: url(../../../products/images/GenImp-S-AC.webp);
+}
 #GenImp-D-PC
 {
     background-image: url(../../products/images/GenImp-D-PC.webp);
@@ -957,6 +961,18 @@ b
 #GenImp-KaguraVerity
 {
     background-image: url(../../products/images/GenImp-KaguraVerity.png);
+}
+#GenImp-KA-CS
+{
+    background-image: url(../../../products/images/GenImp-KA-CS.webp);
+}
+#GenImp-L-EC
+{
+    background-image: url(../../../products/images/GenImp-L-EC.webp);
+}
+#GenImp-F-EA
+{
+    background-image: url(../../../products/images/GenImp-F-EA.webp);
 }
 #GenImp-KS-ES
 {
