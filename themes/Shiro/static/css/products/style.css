@@ -765,6 +765,24 @@ b
     border-top: 5px solid lightblue;
     filter: blur(5px);
 }
+.splash
+{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: fixed;
+}
+.splashText
+{
+    color: white;
+    text-shadow: 1px 1px 1px rgb(179 177 161);
+    position: relative;
+    top: 40%;
+    transform: translate(0%, 40%);
+    text-align: center;
+}
 
 /* Products */
 #GenImp-V-AA
